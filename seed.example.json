@@ -1,0 +1,19 @@
+{
+  "rooms": [
+    { "id": "room_101", "number": "101", "title": "Аудитория 101", "capacity": 30 },
+    { "id": "room_202", "number": "202", "title": "Аудитория 202", "capacity": 20 }
+  ],
+  "assets": [
+    { "id": "asset_proj", "name": "Проектор", "description": "HDMI" },
+    { "id": "asset_board", "name": "Доска", "description": "Маркерная" }
+  ],
+  "bookings": [
+    {
+      "id": "booking_1",
+      "roomId": "room_101",
+      "title": "Лекция",
+      "start": "2026-02-23T09:00:00.000Z",
+      "end": "2026-02-23T10:00:00.000Z"
+    }
+  ]
+}
