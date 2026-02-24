@@ -28,7 +28,8 @@ Production-сборка через Vite
 - Что сделано в бэкенде
 
 Бэкенд реализован с использованием:
-Node.jsExpress
+Node.js
+Express
 CORS
 
 Реализован REST endpoint:

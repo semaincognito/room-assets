@@ -11,7 +11,7 @@ app.use(
   })
 );
 
-// Простой healthcheck (Render любит)
+// Простой healthcheck 
 app.get("/health", (req, res) => res.json({ ok: true }));
 
 // Демо-данные Rooms (можно расширять)
